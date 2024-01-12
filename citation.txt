@@ -1,0 +1,7 @@
+@inproceedings{REPO222,
+    author = "Pan, Xingjia and Ren, Yuqiang and Sheng, Kekai and Dong, Weiming and Yuan, Haolei and Guo, Xiaowei and Ma, Chongyang and Xu, Changsheng",
+    booktitle = "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    pages = "11207--11216",
+    title = "{Dynamic Refinement Network for Oriented and Densely Packed Object Detection}",
+    year = "2020"
+}
