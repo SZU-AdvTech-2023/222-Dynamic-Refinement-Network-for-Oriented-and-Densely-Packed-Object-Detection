@@ -1,0 +1,44 @@
+<annotation>
+    <folder>2labelme</folder>
+    <filename>100000003.jpg</filename>
+    <path>/home/cheny/cheny_work_space/R-CenterNet/2labelme/100000003.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1152</width>
+        <height>820</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <type>robndbox</type>
+        <name>ship</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <robndbox>
+                <cx>646.1838</cx>
+                <cy>521.2683</cy>
+                <w>718.5361</w>
+                <h>170.0784</h>
+                <angle>0.3418862</angle>
+            </robndbox>
+        </object>
+    <object>
+        <type>robndbox</type>
+        <name>ship</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <robndbox>
+                <cx>646.1838</cx>
+                <cy>521.2683</cy>
+                <w>718.5361</w>
+                <h>170.0784</h>
+                <angle>0.4418862</angle>
+            </robndbox>
+        </object>
+    </annotation>
+
+

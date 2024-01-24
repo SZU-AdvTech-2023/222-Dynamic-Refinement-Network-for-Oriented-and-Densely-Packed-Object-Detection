@@ -1,0 +1,35 @@
+<annotation>
+    <folder>{{ folder }}</folder>
+    <filename>{{ filename }}</filename>
+    <path>{{ path }}</path>
+    <source>
+        <database>{{ database }}</database>
+    </source>
+    <size>
+        <width>{{ width }}</width>
+        <height>{{ height }}</height>
+        <depth>{{ depth }}</depth>
+    </size>
+    <segmented>{{ segmented }}</segmented>
+    {% for object in objects -%}
+    <object>
+        <type>robndbox</type>
+        <name>{{ object.name }}</name>
+        <pose>{{ object.pose }}</pose>
+        <truncated>{{ object.truncated }}</truncated>
+        <difficult>{{ object.difficult }}</difficult>
+        {% if object.type == 'bndbox' -%}
+            <robndbox>
+                <cx>{{ object.box[0] }}</cx>
+                <cy>{{ object.box[1] }}</cy>
+                <w>{{ object.box[2]}}</w>
+                <h>{{ object.box[3] }}</h>
+                <angle>{{ object.box[4] }}</angle>
+            </robndbox>
+        {% else -%}
+        {% endif -%}            
+    </object>
+    {% endfor -%}
+</annotation>
+
+
